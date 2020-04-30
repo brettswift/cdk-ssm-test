@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project!
+# Experiment to test CDK ssm behaviour
 
-This is a blank project for TypeScript development with CDK.
+1. run `./deploy-path-change-test.sh` to test behaviour when an ssm path changes in a stack.
+2. run `./deploy-value-change-test.sh` to test behaviour when an ssm value changes in a stack.
+3. `./destroy.sh` cleans everything up
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+It is a good idea to run `./destroy.sh` between each of the tests above.

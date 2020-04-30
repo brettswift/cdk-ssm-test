@@ -4,4 +4,4 @@ import * as cdk from '@aws-cdk/core';
 import { SsmTestStack } from '../lib/ssm-test-stack';
 
 const app = new cdk.App();
-new SsmTestStack(app, 'SsmTestStack');
+new SsmTestStack(app, 'SsmImportTestStack');
